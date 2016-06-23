@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{ec3877ba-3bf2-4ce1-ba23-58138db153b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego">
+      <UniqueIdentifier>{67a0b5c2-a8dd-4f82-b4f6-1892e24ab430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Juego\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="JuegoGato">
+      <UniqueIdentifier>{a7c0742b-444d-4ae4-b6cc-abb999c48e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JuegoGato\Header">
+      <UniqueIdentifier>{2df643aa-c0e7-40f5-8d56-4f97a3242eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JuegoGato\Source">
+      <UniqueIdentifier>{98643fa0-f5a9-4b61-9ab6-f35cab7b1bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego21">
+      <UniqueIdentifier>{99890fae-2d27-46f0-8401-926310a7056f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego21\Header">
+      <UniqueIdentifier>{9b84c557-c5c6-4288-b74b-13f5425188c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego21\Source Files">
+      <UniqueIdentifier>{10bb70d5-b332-45e0-8fe1-8e411d31235b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Archivo.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Consola.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="JuegoGato.h">
+      <Filter>JuegoGato\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorGato.h">
+      <Filter>JuegoGato\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorHumanoG.h">
+      <Filter>JuegoGato\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorMaquinaG.h">
+      <Filter>JuegoGato\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego21.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador21.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorHumano.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorMaquina.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Carta.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugadas21.h">
+      <Filter>Juego21\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Juego\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego.cpp">
+      <Filter>Juego\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Archivo.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Consola.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Carta.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego21.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador21.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorHumano.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorMaquina.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugadas21.cpp">
+      <Filter>Juego21\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JuegoGato.cpp">
+      <Filter>JuegoGato\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorGato.cpp">
+      <Filter>JuegoGato\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorHumanoG.cpp">
+      <Filter>JuegoGato\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorMaquinaG.cpp">
+      <Filter>JuegoGato\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

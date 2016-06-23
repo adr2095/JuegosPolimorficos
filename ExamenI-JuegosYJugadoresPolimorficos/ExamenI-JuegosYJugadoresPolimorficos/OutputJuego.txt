@@ -1,0 +1,25 @@
+Bienvenido! 
+
+
+ Ingrese su nombre sin espacios, maximo 20 caracteres.
+Se le agregara un id al final de su nombre
+
+ Nombre de jugador  1 
+ 
+ Estas son las cartas que posee  1 1 
+ Q   
+ 
+ NOTA: J, Q, K equivalen a 10; A puede ser 1 o 13 segun puntaje
+
+
+ Cartas de  1  con un puntaje de  10 
+ Q   
+
+ Cartas de  PC  con un puntaje de  14 
+ K   4   
+
+ 
+El ganador es:
+ PC 2 
+
+ 
