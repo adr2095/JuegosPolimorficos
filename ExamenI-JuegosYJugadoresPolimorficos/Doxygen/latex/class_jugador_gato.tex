@@ -1,0 +1,147 @@
+\hypertarget{class_jugador_gato}{}\section{Jugador\+Gato Class Reference}
+\label{class_jugador_gato}\index{Jugador\+Gato@{Jugador\+Gato}}
+
+
+Atributos y metodos de \hyperlink{class_jugador_gato}{Jugador\+Gato}.  
+
+
+
+
+{\ttfamily \#include $<$Jugador\+Gato.\+h$>$}
+
+Inheritance diagram for Jugador\+Gato\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_jugador_gato}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_jugador_gato_af067213fcf75bba0584b62224f37aaac}{Jugador\+Gato} (char $\ast$, char, int)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_jugador_gato_aa1ce1ce7e08c10a1411a3fcf70db8927}{$\sim$\+Jugador\+Gato} ()\hypertarget{class_jugador_gato_aa1ce1ce7e08c10a1411a3fcf70db8927}{}\label{class_jugador_gato_aa1ce1ce7e08c10a1411a3fcf70db8927}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{class_jugador_gato_a681a58adde0cf273a426d9e628d2cc6a}{get\+Nombre} ()
+\begin{DoxyCompactList}\small\item\em Devuelve nombre del jugador. \end{DoxyCompactList}\item 
+char \hyperlink{class_jugador_gato_ae62e53c1e01067ab60403f0043c1ac7d}{get\+Caracter} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el caracter dle jugador. \end{DoxyCompactList}\item 
+int {\bfseries get\+Id} ()\hypertarget{class_jugador_gato_aade24ff7b78d966dacc92576be3cfd32}{}\label{class_jugador_gato_aade24ff7b78d966dacc92576be3cfd32}
+
+\item 
+virtual int $\ast$ {\bfseries escoger\+Posicion} ()=0\hypertarget{class_jugador_gato_aeb3128d82c7f772d7cde3742aa8005ce}{}\label{class_jugador_gato_aeb3128d82c7f772d7cde3742aa8005ce}
+
+\item 
+void \hyperlink{class_jugador_gato_ade6d9051e9248e0ad50c489966192c1f}{set\+Tablero} (char\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Actualiza el tablero en juego. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_jugador_gato_a9679414a034dba9d8368f1cd0d0fbc29}{id}
+\item 
+char $\ast$ \hyperlink{class_jugador_gato_aadcfaa939882268fd6ccfbbeb1573710}{nombre}
+\item 
+char \hyperlink{class_jugador_gato_a813bdc504edeb75c4fbbea7209e3f6d8}{caracter}
+\item 
+int $\ast$ \hyperlink{class_jugador_gato_a72bb79fbed6943c62fd54dbb7a8c6ff9}{posicion}
+\item 
+char \hyperlink{class_jugador_gato_afda277644a559764840c795c936ee22c}{tablero} \mbox{[}3\mbox{]}\mbox{[}3\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Atributos y metodos de \hyperlink{class_jugador_gato}{Jugador\+Gato}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Jugador\+Gato@{Jugador\+Gato}!Jugador\+Gato@{Jugador\+Gato}}
+\index{Jugador\+Gato@{Jugador\+Gato}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{Jugador\+Gato(char $\ast$, char, int)}{JugadorGato(char *, char, int)}}]{\setlength{\rightskip}{0pt plus 5cm}Jugador\+Gato\+::\+Jugador\+Gato (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nombre, }
+\item[{char}]{caracter, }
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador_gato_af067213fcf75bba0584b62224f37aaac}{}\label{class_jugador_gato_af067213fcf75bba0584b62224f37aaac}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & char $\ast$ \\
+\hline
+{\em caracter} & char \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Jugador\+Gato@{Jugador\+Gato}!get\+Caracter@{get\+Caracter}}
+\index{get\+Caracter@{get\+Caracter}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{get\+Caracter()}{getCaracter()}}]{\setlength{\rightskip}{0pt plus 5cm}char Jugador\+Gato\+::get\+Caracter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador_gato_ae62e53c1e01067ab60403f0043c1ac7d}{}\label{class_jugador_gato_ae62e53c1e01067ab60403f0043c1ac7d}
+
+
+Devuelve el caracter dle jugador. 
+
+\begin{DoxyReturn}{Returns}
+caracter char 
+\end{DoxyReturn}
+\index{Jugador\+Gato@{Jugador\+Gato}!get\+Nombre@{get\+Nombre}}
+\index{get\+Nombre@{get\+Nombre}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{get\+Nombre()}{getNombre()}}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ Jugador\+Gato\+::get\+Nombre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador_gato_a681a58adde0cf273a426d9e628d2cc6a}{}\label{class_jugador_gato_a681a58adde0cf273a426d9e628d2cc6a}
+
+
+Devuelve nombre del jugador. 
+
+\begin{DoxyReturn}{Returns}
+nombre char$\ast$ 
+\end{DoxyReturn}
+\index{Jugador\+Gato@{Jugador\+Gato}!set\+Tablero@{set\+Tablero}}
+\index{set\+Tablero@{set\+Tablero}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{set\+Tablero(char[3][3])}{setTablero(char[3][3])}}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador\+Gato\+::set\+Tablero (
+\begin{DoxyParamCaption}
+\item[{char}]{table\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador_gato_ade6d9051e9248e0ad50c489966192c1f}{}\label{class_jugador_gato_ade6d9051e9248e0ad50c489966192c1f}
+
+
+Actualiza el tablero en juego. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}} & char. Tablero del juego \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\index{Jugador\+Gato@{Jugador\+Gato}!caracter@{caracter}}
+\index{caracter@{caracter}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{caracter}{caracter}}]{\setlength{\rightskip}{0pt plus 5cm}char Jugador\+Gato\+::caracter\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador_gato_a813bdc504edeb75c4fbbea7209e3f6d8}{}\label{class_jugador_gato_a813bdc504edeb75c4fbbea7209e3f6d8}
+varible char caracter (X o O) \index{Jugador\+Gato@{Jugador\+Gato}!id@{id}}
+\index{id@{id}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{id}{id}}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador\+Gato\+::id\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador_gato_a9679414a034dba9d8368f1cd0d0fbc29}{}\label{class_jugador_gato_a9679414a034dba9d8368f1cd0d0fbc29}
+varible integer id. Diferencia a cada jugador PC \index{Jugador\+Gato@{Jugador\+Gato}!nombre@{nombre}}
+\index{nombre@{nombre}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{nombre}{nombre}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Jugador\+Gato\+::nombre\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador_gato_aadcfaa939882268fd6ccfbbeb1573710}{}\label{class_jugador_gato_aadcfaa939882268fd6ccfbbeb1573710}
+varible char $\ast$ nombre \index{Jugador\+Gato@{Jugador\+Gato}!posicion@{posicion}}
+\index{posicion@{posicion}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{posicion}{posicion}}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Jugador\+Gato\+::posicion\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador_gato_a72bb79fbed6943c62fd54dbb7a8c6ff9}{}\label{class_jugador_gato_a72bb79fbed6943c62fd54dbb7a8c6ff9}
+varible integer $\ast$ posicion. Donde se ingresara el caracter. \index{Jugador\+Gato@{Jugador\+Gato}!tablero@{tablero}}
+\index{tablero@{tablero}!Jugador\+Gato@{Jugador\+Gato}}
+\subsubsection[{\texorpdfstring{tablero}{tablero}}]{\setlength{\rightskip}{0pt plus 5cm}char Jugador\+Gato\+::tablero\mbox{[}3\mbox{]}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador_gato_afda277644a559764840c795c936ee22c}{}\label{class_jugador_gato_afda277644a559764840c795c936ee22c}
+varible char tablero. Tablero con el que se esta jugando 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Alexa Duarte/\+Desktop/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/Jugador\+Gato.\+h\item 
+C\+:/\+Users/\+Alexa Duarte/\+Desktop/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/Jugador\+Gato.\+cpp\end{DoxyCompactItemize}

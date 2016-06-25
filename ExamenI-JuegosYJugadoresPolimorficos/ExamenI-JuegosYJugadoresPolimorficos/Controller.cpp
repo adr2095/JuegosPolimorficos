@@ -18,8 +18,6 @@ Controller::Controller()
 Controller::~Controller()
 {
 	delete model;
-	//delete vistaConsola; //da error!
-	//delete vistaArchivo;
 }
 
 /**

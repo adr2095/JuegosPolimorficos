@@ -1,5 +1,5 @@
 /**
-* @class Juego gato
+* @class JuegoGato
 * @brief Atributos y metodos del juego gato. Hija de juego.
 */
 

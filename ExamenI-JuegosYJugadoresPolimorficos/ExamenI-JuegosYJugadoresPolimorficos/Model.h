@@ -1,3 +1,7 @@
+/**
+* @class Model
+* @brief Modelo de las clases.
+*/
 #pragma once
 
 #include "View.h"

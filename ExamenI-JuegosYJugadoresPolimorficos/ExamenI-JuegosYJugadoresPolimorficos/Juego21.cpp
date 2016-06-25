@@ -142,7 +142,7 @@ void Juego21::terminarJuego()
 	}
 	else
 	{
-		notifyOutput("No hay ganador");
+		notifyOutput("Es empate, no hay ganador\n");
 	}
 }
 
@@ -151,12 +151,13 @@ void Juego21::terminarJuego()
 */
 void Juego21::mostrar()
 {
-	notifyOutput("NOTA: J, Q, K equivalen a 10; A puede ser 1 o 13 segun puntaje\n\n\n");
+	notifyOutput("NOTA: J, Q, K equivalen a 10; A puede ser 1 o 11 segun puntaje\n\n\n");
 	for (list<Jugador21*>::iterator it = jugadores.begin(); it != jugadores.end(); it++)
 	{
 		(*it)->setPuntaje();
 		notifyOutput("Cartas de ");
 		notifyOutput((*it)->getNombre());
+		notifyOutputInt((*it)->getNumeroJugador());
 		notifyOutput(" con un puntaje de ");
 		notifyOutputInt((*it)->getPuntaje());
 		notifyOutput("\n");
@@ -184,14 +185,14 @@ Jugador21 * Juego21::compararPuntajes()
 	int mejorpuntaje = 0;
 	int puntaje;
 	Jugador21 * ganador = NULL;
-	bool repetido = false;
+	int repetido = 0;
 	for (list<Jugador21*>::iterator it = jugadores.begin(); it != jugadores.end(); it++)
 	{
 		
 		puntaje = (*it)->getPuntaje();
 		if (puntaje == mejorpuntaje)
 		{
-			repetido = true;
+			repetido = puntaje;
 		}
 		if (puntaje > mejorpuntaje)
 		{
@@ -202,7 +203,7 @@ Jugador21 * Juego21::compararPuntajes()
 			}
 		}
 	}
-	if (repetido == true)
+	if (repetido == mejorpuntaje)
 	{
 		ganador = NULL;
 	}

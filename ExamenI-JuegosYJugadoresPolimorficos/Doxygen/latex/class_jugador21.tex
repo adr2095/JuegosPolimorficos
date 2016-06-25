@@ -1,0 +1,184 @@
+\hypertarget{class_jugador21}{}\section{Jugador21 Class Reference}
+\label{class_jugador21}\index{Jugador21@{Jugador21}}
+
+
+Metodos y atributos de los jugadores en 21.  
+
+
+
+
+{\ttfamily \#include $<$Jugador21.\+h$>$}
+
+Inheritance diagram for Jugador21\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_jugador21}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_jugador21_a424d1aad6052177ade0cbd64daa2b4fc}{Jugador21} (char $\ast$, int)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_jugador21_a59b58bf9bb8b0d25ac4b8fe1c1dd1d80}{$\sim$\+Jugador21} ()\hypertarget{class_jugador21_a59b58bf9bb8b0d25ac4b8fe1c1dd1d80}{}\label{class_jugador21_a59b58bf9bb8b0d25ac4b8fe1c1dd1d80}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+list$<$ \hyperlink{class_carta}{Carta} $\ast$ $>$ \hyperlink{class_jugador21_aade6e9a04032d3a2ff4c29880f6f8739}{get\+Mano} ()
+\begin{DoxyCompactList}\small\item\em Devuelve mano del jugador. \end{DoxyCompactList}\item 
+void \hyperlink{class_jugador21_aa15cf22af6c5c8b11ed16944b58f878b}{anadir\+A\+Mano} (\hyperlink{class_carta}{Carta} $\ast$)
+\begin{DoxyCompactList}\small\item\em Agrega carta a mano del jugador. \end{DoxyCompactList}\item 
+void \hyperlink{class_jugador21_a4169f9fb97f0deb6745c23513f002ede}{set\+Puntaje} ()\hypertarget{class_jugador21_a4169f9fb97f0deb6745c23513f002ede}{}\label{class_jugador21_a4169f9fb97f0deb6745c23513f002ede}
+
+\begin{DoxyCompactList}\small\item\em Establece el puntaje total de todas las cartas. \end{DoxyCompactList}\item 
+virtual bool {\bfseries tomar\+Decision} ()=0\hypertarget{class_jugador21_aae50435712a479e360234bd932e53a72}{}\label{class_jugador21_aae50435712a479e360234bd932e53a72}
+
+\item 
+int \hyperlink{class_jugador21_a061cafa05bbbe86c083f5cb9e46064a4}{get\+Numero\+Jugador} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el id de jugador. \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{class_jugador21_ac517b3e12f7f3769eaf6cc07dea03f86}{get\+Nombre} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el nombre del jugador. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_jugador21_a6174462ec61d01cea00e3acc4976c828}{mostrar} ()\hypertarget{class_jugador21_a6174462ec61d01cea00e3acc4976c828}{}\label{class_jugador21_a6174462ec61d01cea00e3acc4976c828}
+
+\begin{DoxyCompactList}\small\item\em Muestra cartas que posee en ese momento el jugador. \end{DoxyCompactList}\item 
+int \hyperlink{class_jugador21_a47c99c5c4a5c92112ff6cdda5514d11b}{get\+Puntaje} ()
+\begin{DoxyCompactList}\small\item\em Devuelve calificacion total de la mano del jugador. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_jugadas21}{Jugadas21} $\ast$ \hyperlink{class_jugador21_a6b5cfdac322e1dbef3454433ee4e99db}{jugadas}
+\item 
+list$<$ \hyperlink{class_carta}{Carta} $\ast$ $>$ {\bfseries mano}\hypertarget{class_jugador21_ac7068ec52e197d3564ba75109515f049}{}\label{class_jugador21_ac7068ec52e197d3564ba75109515f049}
+
+\item 
+bool \hyperlink{class_jugador21_af19f68194e09128458c1dee73570b862}{desicion}
+\item 
+char $\ast$ \hyperlink{class_jugador21_a600a37d76fb98cf7dedd3ebff40cbacb}{nombre}
+\item 
+int \hyperlink{class_jugador21_acc3630dc1971efed579301c8020765cd}{numero\+Jugador}
+\item 
+int \hyperlink{class_jugador21_ab156bd206e9615990497b6530f7d6c16}{puntaje}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Metodos y atributos de los jugadores en 21. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Jugador21@{Jugador21}!Jugador21@{Jugador21}}
+\index{Jugador21@{Jugador21}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{Jugador21(char $\ast$, int)}{Jugador21(char *, int)}}]{\setlength{\rightskip}{0pt plus 5cm}Jugador21\+::\+Jugador21 (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nombre, }
+\item[{int}]{numero\+Jugador}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_a424d1aad6052177ade0cbd64daa2b4fc}{}\label{class_jugador21_a424d1aad6052177ade0cbd64daa2b4fc}
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & char $\ast$. Nombre del jugador. \\
+\hline
+{\em numero\+Jugador} & integer. Id del jugador \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Jugador21@{Jugador21}!anadir\+A\+Mano@{anadir\+A\+Mano}}
+\index{anadir\+A\+Mano@{anadir\+A\+Mano}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{anadir\+A\+Mano(\+Carta $\ast$)}{anadirAMano(Carta *)}}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador21\+::anadir\+A\+Mano (
+\begin{DoxyParamCaption}
+\item[{{\bf Carta} $\ast$}]{carta}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_aa15cf22af6c5c8b11ed16944b58f878b}{}\label{class_jugador21_aa15cf22af6c5c8b11ed16944b58f878b}
+
+
+Agrega carta a mano del jugador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em carta} & \hyperlink{class_carta}{Carta} $\ast$ \\
+\hline
+\end{DoxyParams}
+\index{Jugador21@{Jugador21}!get\+Mano@{get\+Mano}}
+\index{get\+Mano@{get\+Mano}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{get\+Mano()}{getMano()}}]{\setlength{\rightskip}{0pt plus 5cm}list$<$ {\bf Carta} $\ast$ $>$ Jugador21\+::get\+Mano (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_aade6e9a04032d3a2ff4c29880f6f8739}{}\label{class_jugador21_aade6e9a04032d3a2ff4c29880f6f8739}
+
+
+Devuelve mano del jugador. 
+
+\begin{DoxyReturn}{Returns}
+mano list$<$\+Carta$>$. 
+\end{DoxyReturn}
+\index{Jugador21@{Jugador21}!get\+Nombre@{get\+Nombre}}
+\index{get\+Nombre@{get\+Nombre}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{get\+Nombre()}{getNombre()}}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ Jugador21\+::get\+Nombre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_ac517b3e12f7f3769eaf6cc07dea03f86}{}\label{class_jugador21_ac517b3e12f7f3769eaf6cc07dea03f86}
+
+
+Devuelve el nombre del jugador. 
+
+\begin{DoxyReturn}{Returns}
+nombre char$\ast$ 
+\end{DoxyReturn}
+\index{Jugador21@{Jugador21}!get\+Numero\+Jugador@{get\+Numero\+Jugador}}
+\index{get\+Numero\+Jugador@{get\+Numero\+Jugador}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{get\+Numero\+Jugador()}{getNumeroJugador()}}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador21\+::get\+Numero\+Jugador (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_a061cafa05bbbe86c083f5cb9e46064a4}{}\label{class_jugador21_a061cafa05bbbe86c083f5cb9e46064a4}
+
+
+Devuelve el id de jugador. 
+
+\begin{DoxyReturn}{Returns}
+numero\+Jugador int. 
+\end{DoxyReturn}
+\index{Jugador21@{Jugador21}!get\+Puntaje@{get\+Puntaje}}
+\index{get\+Puntaje@{get\+Puntaje}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{get\+Puntaje()}{getPuntaje()}}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador21\+::get\+Puntaje (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_jugador21_a47c99c5c4a5c92112ff6cdda5514d11b}{}\label{class_jugador21_a47c99c5c4a5c92112ff6cdda5514d11b}
+
+
+Devuelve calificacion total de la mano del jugador. 
+
+\begin{DoxyReturn}{Returns}
+puntaje int. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\index{Jugador21@{Jugador21}!desicion@{desicion}}
+\index{desicion@{desicion}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{desicion}{desicion}}]{\setlength{\rightskip}{0pt plus 5cm}bool Jugador21\+::desicion\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador21_af19f68194e09128458c1dee73570b862}{}\label{class_jugador21_af19f68194e09128458c1dee73570b862}
+varible bool desicion. Decide si quiere mas cartas o no \index{Jugador21@{Jugador21}!jugadas@{jugadas}}
+\index{jugadas@{jugadas}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{jugadas}{jugadas}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Jugadas21}$\ast$ Jugador21\+::jugadas\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador21_a6b5cfdac322e1dbef3454433ee4e99db}{}\label{class_jugador21_a6b5cfdac322e1dbef3454433ee4e99db}
+objero \hyperlink{class_jugadas21}{Jugadas21} jugadas \index{Jugador21@{Jugador21}!nombre@{nombre}}
+\index{nombre@{nombre}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{nombre}{nombre}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Jugador21\+::nombre\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador21_a600a37d76fb98cf7dedd3ebff40cbacb}{}\label{class_jugador21_a600a37d76fb98cf7dedd3ebff40cbacb}
+varible char $\ast$ nombre \index{Jugador21@{Jugador21}!numero\+Jugador@{numero\+Jugador}}
+\index{numero\+Jugador@{numero\+Jugador}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{numero\+Jugador}{numeroJugador}}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador21\+::numero\+Jugador\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador21_acc3630dc1971efed579301c8020765cd}{}\label{class_jugador21_acc3630dc1971efed579301c8020765cd}
+varible integer numero\+Jugador. Id único en el juego \index{Jugador21@{Jugador21}!puntaje@{puntaje}}
+\index{puntaje@{puntaje}!Jugador21@{Jugador21}}
+\subsubsection[{\texorpdfstring{puntaje}{puntaje}}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador21\+::puntaje\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_jugador21_ab156bd206e9615990497b6530f7d6c16}{}\label{class_jugador21_ab156bd206e9615990497b6530f7d6c16}
+varible integer puntaje 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Alexa Duarte/\+Desktop/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/Jugador21.\+h\item 
+C\+:/\+Users/\+Alexa Duarte/\+Desktop/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/\+Examen\+I-\/\+Juegos\+Y\+Jugadores\+Polimorficos/Jugador21.\+cpp\end{DoxyCompactItemize}

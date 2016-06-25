@@ -52,7 +52,16 @@ bool JugadorHumano::tomarDecision()
 		}
 		default:
 		{
-			d = notifyInputInt("La opcion no existe. Intente de nuevo ");
+			notifyOutput("Estas son las cartas que posee ");
+			notifyOutput(nombre);
+			notifyOutputInt(numeroJugador);
+			notifyOutput("\n");
+
+			mostrar();
+			notifyOutput("\n");
+			notifyOutput("\n");
+			d = notifyInputInt("La opcion no existe. Intente de nuevo: ");
+			system("cls");
 			break;
 		}
 		}

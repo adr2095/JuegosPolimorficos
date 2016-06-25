@@ -6,17 +6,17 @@ Se le agregara un id al final de su nombre
 
  Nombre de jugador  1 
  
- Estas son las cartas que posee  1 1 
+ Estas son las cartas que posee  a 1 
  Q   
  
- NOTA: J, Q, K equivalen a 10; A puede ser 1 o 13 segun puntaje
+ NOTA: J, Q, K equivalen a 10; A puede ser 1 o 11 segun puntaje
 
 
- Cartas de  1  con un puntaje de  10 
+ Cartas de  a 1  con un puntaje de  10 
  Q   
 
- Cartas de  PC  con un puntaje de  14 
- K   4   
+ Cartas de  PC 2  con un puntaje de  17 
+ 10   7   
 
  
 El ganador es:

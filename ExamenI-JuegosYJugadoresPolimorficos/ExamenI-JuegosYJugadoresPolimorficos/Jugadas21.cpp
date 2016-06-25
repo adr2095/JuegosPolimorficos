@@ -57,9 +57,9 @@ int Jugadas21::establecerCalificacion(list<Carta*> mano)
 
 	if (uno == true)
 	{
-		if (calificacionTmp <= 8 && size != 1)
+		if (calificacionTmp <= 10 && size != 1)
 		{
-			puntaje = calificacionTmp + 13;
+			puntaje = calificacionTmp + 11;
 		}
 		else
 		{

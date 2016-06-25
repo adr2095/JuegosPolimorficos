@@ -1,5 +1,5 @@
 /**
-* @class Jugadas
+* @class Jugadas21
 * @brief Da calificaciones segun las cartas en mano.
 */
 #pragma once
